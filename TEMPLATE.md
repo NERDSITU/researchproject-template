@@ -1,5 +1,57 @@
 # About this template
-This [template](https://github.com/NERDSITU/research-template) should be used as a foundation to create a new research project. It comes with a basic tree folder and a workflow adapted for programmation using Python.
+This [template](https://github.com/NERDSITU/research-template) should be used as a foundation to create a new research project. It comes with a basic tree folder and a workflow adapted for programmation using Python. Follow this file to know what to do after cloning the template.
 
+## Make the installation
 
+Locate yourself within the cloned folder, and create a new virtual environment.
+You can either create a new virtual environment then install the necessary dependencies with `pip` using the `requirements.txt` file:
 
+```
+pip install -r requirements.txt
+```
+
+Or create a new environment with the dependencies with `conda` or `mamba` using the `environment.yml` file. In that case, you should rename your virtual environment as you like in the file by replacing `ENVNAME` in `environment.yml`. You can then use:
+
+```
+mamba env create -f environment.yml
+```
+
+This will install the latest versions of `pre-commit` and `pytest`. If you need a specific version, modify the files.
+
+You then install the [pre-commit](https://pre-commit.com/) hooks that are specified in the `.pre-commit-config.yaml`. You can remove or add the ones that you like. Notable hooks are:
+- [Ruff](https://github.com/astral-sh/ruff-pre-commit) linting and formatting as a pre-commit hook.
+- [Prettier](https://github.com/pre-commit/mirrors-prettier) for formatting multiple formats of files such as YML or JSON.
+- [Out-of-the-box basic hooks](https://github.com/pre-commit/pre-commit-hooks) for a list of basic hooks.
+You install the ones specified in `.pre-commit-config.yaml` by running:
+
+```
+pre-commit install
+```
+
+## Remove `placeholder.txt` files
+
+Git can't track empty folders. Once you have put files in your folders such as `scripts`, you can remove the useless `placeholder.txt`. Those files are only there to track the folders.
+
+## Update the `.gitignore` file
+
+Based on your preferences, you can update the `.gitignore` file. This one is created by combining Windows, MacOS, Python, and Visual Studio Code on [gitignore.io](https://www.toptal.com/developers/gitignore/).
+
+You should add folders or files that you don't want to track, either because they are large, private, temporary...
+
+## Update the `requirements.txt` and `environment.yaml` files
+
+When you add packages to your installation, you should update the `requirements.txt` and `environment.yaml` files so that your environment is reproducible. For pip:
+
+```
+pip freeze > requirements.txt
+```
+
+See [here](https://pip.pypa.io/en/stable/reference/requirements-file-format/#requirements-file-format) for more details. This will only save packages installed with pip.
+
+For conda/mamba:
+
+```
+mamba env export > environment.yaml
+```
+
+See [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually) for more details.
