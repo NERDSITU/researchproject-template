@@ -26,6 +26,7 @@ mamba env create -f environment.yml
 ```
 
 ## Repository structure
+Such 
 
 ```
 ├── data
@@ -38,7 +39,7 @@ mamba env create -f environment.yml
 ├── .pre-commit-config.yaml <- Pre-commit hooks used.
 ├── LICENSE
 ├── README.md
-├── TEMPLATE.md             <- Explanation to fill the [template](https://github.com/NERDSITU/research-template), delete it after use.
+├── TEMPLATE.md             <- Explanation for the template, delete it after use.
 ├── environment.yml         <- Environment file to reproduce the environment using conda/mamba.
 └── requirements.txt        <- Requirements file to reproduce the environment using pip.
 ```
