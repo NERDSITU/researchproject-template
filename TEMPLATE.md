@@ -3,7 +3,7 @@ The purpose of this [template](https://github.com/NERDSITU/research-template) is
 
 ## Choose a License
 
-Put a license inside your repository before doing anything else. If you are writing code, [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) is best to encourage open science as it forces public availability and thus reproducibility. If you want a license that allows to make a copy of the code closed (usually relevant for a business), use the [MIT License](https://choosealicense.com/licenses/mit/). If you want to share educational ressources or text, use [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Put a license inside your repository before doing anything else. There are many licenses, but for research we recommend one of the following: If you are writing code, [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) is best to encourage open science as it forces public availability and thus reproducibility. If you want a license that permits development of a closed version of the code (usually relevant for a business), use the [MIT License](https://choosealicense.com/licenses/mit/). If you want to share educational ressources or text, use [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Make the installation
 
