@@ -1,6 +1,10 @@
 # About this template
 This [template](https://github.com/NERDSITU/research-template) should be used as a foundation to create a new research project. It comes with a basic tree folder and a workflow adapted for programmation using Python. Follow this file to know what to do after cloning the template.
 
+## Choose a License
+
+Put a license inside your repository before doing anything else. If you are writing code, [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) is best to encourage open science. If you want a more permissible one for closed version, use [MIT License](https://choosealicense.com/licenses/mit/). If you want to share educational ressources or text, use [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
 ## Make the installation
 
 Locate yourself within the cloned folder, and create a new virtual environment.
@@ -55,3 +59,7 @@ mamba env export > environment.yaml
 ```
 
 See [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually) for more details.
+
+## Remove this file
+
+Once you are done adapting this template to your use, remove this file !
