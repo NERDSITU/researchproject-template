@@ -29,21 +29,30 @@ Or create a new environment with the dependencies with `conda` or `mamba` using 
 ```
 mamba env create -f environment.yml
 ```
+Then, install the virtual environment's kernel in Jupyter:
+
+```
+mamba activate ENVNAME
+ipython kernel install --user --name=ENVNAME
+mamba deactivate
+```
+
+You can now run `jupyter lab` with kernel `ENVNAME` (Kernel > Change Kernel > ENVNAME).
 
 ## Repository structure
 
 ```
 ├── data
-│   ├── processed           <- Modified data.
-│   └── raw                 <- Original, immutable data.
-├── notebooks               <- Jupyter notebooks.
-├── plots                   <- Generated figures.
+│   ├── processed           <- Modified data
+│   └── raw                 <- Original, immutable data
+├── notebooks               <- Jupyter notebooks
+├── plots                   <- Generated figures
 ├── scripts                 <- Scripts to execute
-├── .gitignore              <- Files and folders ignored by git.
-├── .pre-commit-config.yaml <- Pre-commit hooks used.
+├── .gitignore              <- Files and folders ignored by git
+├── .pre-commit-config.yaml <- Pre-commit hooks used
 ├── LICENSE
 ├── README.md
-├── TEMPLATE.md             <- Explanation for the template, delete it after use.
-├── environment.yml         <- Environment file to reproduce the environment using conda/mamba.
-└── requirements.txt        <- Requirements file to reproduce the environment using pip.
+├── TEMPLATE.md             <- Explanation for the template, delete it after use
+├── environment.yml         <- Environment file to set up the environment using conda/mamba
+└── requirements.txt        <- Requirements file to set up the environment using pip
 ```
