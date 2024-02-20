@@ -48,9 +48,9 @@ Based on your preferences, you can update the `.gitignore` file. This one is cre
 
 You should add folders or files that you don't want to track, either because they are large, private, temporary...
 
-## Update the `requirements.txt` and `environment.yaml` files
+## Update the `requirements.txt` and `environment.yml` files
 
-When you add packages to your installation, you should update the `requirements.txt` and `environment.yaml` files so that your environment is reproducible. For pip:
+When you add packages to your installation, you should update the `requirements.txt` and `environment.yml` files so that your environment is reproducible. For pip:
 
 ```
 pip freeze > requirements.txt
@@ -61,7 +61,7 @@ See [here](https://pip.pypa.io/en/stable/reference/requirements-file-format/#req
 For conda/mamba:
 
 ```
-mamba env export > environment.yaml
+mamba env export > environment.yml
 ```
 
 See [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually) for more details.
