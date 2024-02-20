@@ -1,3 +1,4 @@
+The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic tree folder and a workflow adapted for programming using Python.
 
 ⚠️ **Read [TEMPLATE.md](TEMPLATE.md) to know how to use the template !**
 
