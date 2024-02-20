@@ -8,7 +8,12 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-DESCRIPTION OF THE REPOSITORY.
+This is the source code for the scientific paper/project [*PROJECTNAME*](PAPERURL) by [AUTHOR1](AUTHOR1URL), [AUTHOR2](AUTHOR2URL), and [AUTHOR3](AUTHOR3URL). The code SHORTEXPLANATION.
+
+**Preprint**: [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)  
+**Data repository**: [zenodo.XXXXXXX](https://zenodo.org/record/XXXXXXX)  
+
+[![PROJECTNAME](SPLASHIMAGE.JPG/PNG/GIF)](PROJECTURL)
 
 ## Installation
 First clone the repository:
