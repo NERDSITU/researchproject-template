@@ -62,3 +62,11 @@ You can now run `jupyter lab` with kernel `ENVNAME` (Kernel > Change Kernel > EN
 ├── environment.yml         <- Environment file to set up the environment using conda/mamba
 └── requirements.txt        <- Requirements file to set up the environment using pip
 ```
+
+## Credits
+
+Please cite as: AUTHOR1, AUTHOR2, and AUTHOR3, PROJECTNAME, JOURNAL, DOIURL  
+
+Development of PROJECTNAME was supported by FUNDER.
+
+
