@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this source code, please cite it as below."
+authors:
+- family-names: "AUTHOR1"
+  given-names: "AUTHOR1GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "AUTHOR2"
+  given-names: "AUTHOR2GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "AUTHOR3"
+  given-names: "AUTHOR3GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "PROJECTNAME"
+version: 1.0.0
+doi: 10.5281/zenodo.0000
+date-released: YYYY-MM-DD
+url: "URL"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "AUTHOR1"
+  given-names: "AUTHOR1GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "AUTHOR2"
+  given-names: "AUTHOR2GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "AUTHOR3"
+  given-names: "AUTHOR3GIVEN"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.0000/00000"
+  journal: "JOURNAL"
+  month: 1
+  start: 1
+  end: 2
+  title: "PROJECTNAME"
+  issue: 1
+  volume: 1
+  year: YYYY

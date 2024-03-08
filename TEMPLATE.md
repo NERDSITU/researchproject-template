@@ -74,7 +74,9 @@ The readme has many placeholders, like PROJECTNAME or ENVNAME. Update those to f
 Once you are done adapting this template to your use, remove this file.
 
 ## After publication
-When you make the code public or publish a paper, [add a `CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) to your repo.
+When you make the code public or publish a paper, [update the citation file template](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) in your repo: [`CITATION.cff`](CITATION.cff)
+
+As best practice, place your code/data on [zenodo](https://zenodo.org).
 
 ## Troubleshooting
 If you have problems committing due to the linter complaining, try removing the following lines from `.pre-commit-config.yaml`:
