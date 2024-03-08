@@ -56,7 +56,7 @@ You can now run `jupyter lab` with kernel `ENVNAME` (Kernel > Change Kernel > EN
 ├── scripts                 <- Scripts to execute
 ├── .gitignore              <- Files and folders ignored by git
 ├── .pre-commit-config.yaml <- Pre-commit hooks used
-├── LICENSE
+├── CITATION.cff            <- Citation file (template)
 ├── README.md
 ├── TEMPLATE.md             <- Explanation for the template, delete it after use
 ├── environment.yml         <- Environment file to set up the environment using conda/mamba
@@ -65,7 +65,7 @@ You can now run `jupyter lab` with kernel `ENVNAME` (Kernel > Change Kernel > EN
 
 ## Credits
 
-Please cite as: AUTHOR1, AUTHOR2, and AUTHOR3, PROJECTNAME, JOURNAL, DOIURL  
+Please cite as: AUTHOR1, AUTHOR2, and AUTHOR3, PROJECTNAME, JOURNAL (YYYY), DOIURL  
 
 Development of PROJECTNAME was supported by FUNDER.
 
