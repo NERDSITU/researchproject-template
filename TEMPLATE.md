@@ -1,5 +1,5 @@
 # About this template
-The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic folder structure and a workflow adapted for programming using Python. This should work for most cases, but if you need a richer template, consider using [Cookiecutter](https://github.com/drivendata/cookiecutter-data-science). 
+The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic folder structure and a workflow adapted for programming using Python. This should work for most cases, but if you need a richer template, consider using [Cookiecutter](https://github.com/drivendata/cookiecutter-data-science). For information about packaging, see the [packaging tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 
 Read this file to know what to do after cloning the template.
 
@@ -76,7 +76,8 @@ Once you are done adapting this template to your use, remove this file.
 ## After publication
 When you make the code public or publish a paper, [update the citation file template](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) in your repo: [`CITATION.cff`](CITATION.cff)
 
-As best practice, place your code/data on [zenodo](https://zenodo.org).
+As best practice, place your code/data on [zenodo](https://zenodo.org). Follow the [tutorial to connect your github repo with zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
+
 
 ## Troubleshooting
 If you have problems committing due to the linter complaining, try removing the following lines from `.pre-commit-config.yaml`:
