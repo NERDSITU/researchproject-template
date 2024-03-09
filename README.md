@@ -1,6 +1,6 @@
-The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic tree folder and a workflow adapted for programming using Python.
+The purpose of this template is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic folder structure and a workflow adapted for programming using Python.
 
-⚠️ **Read [TEMPLATE.md](TEMPLATE.md) to know how to use the template !**
+⚠️ **Read [TEMPLATE.md](TEMPLATE.md) to know how to use the template** ⚠️
 
 ***
 
@@ -23,8 +23,7 @@ First clone the repository:
 git clone https://github.com/USER/REPO.git
 ```
 
-Locate yourself within the cloned folder, and create a new virtual environment. 
-You can either create a new virtual environment then install the necessary dependencies with `pip` using the `requirements.txt` file:
+Go to the cloned folder and create a new virtual environment. You can either create a new virtual environment then install the necessary dependencies with `pip` using the `requirements.txt` file:
 
 ```
 pip install -r requirements.txt
