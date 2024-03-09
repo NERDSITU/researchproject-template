@@ -1,11 +1,11 @@
 # About this template
-The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic tree folder and a workflow adapted for programming using Python. This should work for most cases, but if you need a richer template, consider using [Cookiecutter](https://github.com/drivendata/cookiecutter-data-science). 
+The purpose of this [template](https://github.com/NERDSITU/research-template) is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic folder structure and a workflow adapted for programming using Python. This should work for most cases, but if you need a richer template, consider using [Cookiecutter](https://github.com/drivendata/cookiecutter-data-science). 
 
 Read this file to know what to do after cloning the template.
 
 ## Choose a License
 
-Put a license inside your repository before doing anything else. There are many licenses, but for research we recommend one of the following three: 
+Put a license inside your repository before doing anything else. There are [many licenses](https://choosealicense.com), but for research we recommend one of the following three: 
 
 - If you are writing code, [AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) is best to encourage open science as it forces public availability and thus reproducibility. 
 - If you want a license that permits development of a closed version of the code (usually relevant for a business), use the [MIT License](https://choosealicense.com/licenses/mit/). 
@@ -38,9 +38,9 @@ You install the ones specified in `.pre-commit-config.yaml` by running:
 pre-commit install
 ```
 
-## Remove `placeholder.txt` files
+## Remove or update `README.txt` files
 
-Git can't track empty folders. Once you have put files in your folders such as `scripts`, you can remove the useless `placeholder.txt`. Those files are only there to track the folders.
+Git can't track empty folders so we placed a `README.txt` into each one that gives information about a folder's contents. Once you have put files in your folders such as `scripts`, you can remove or update a folder's `README.txt`.
 
 ## Update the `.gitignore` file
 
