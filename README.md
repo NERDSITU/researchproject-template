@@ -64,7 +64,8 @@ You can now run `jupyter lab` with kernel `ENVNAME` (Kernel > Change Kernel > EN
 
 ## Credits
 
-Please cite as: AUTHOR1, AUTHOR2, and AUTHOR3, PROJECTNAME, JOURNAL (YYYY), DOIURL  
+Please cite as: 
+>AUTHOR1, AUTHOR2, and AUTHOR3, PROJECTNAME, JOURNAL (YYYY), DOIURL  
 
 Development of PROJECTNAME was supported by FUNDER.
 
