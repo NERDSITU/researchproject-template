@@ -17,6 +17,8 @@ This is the source code for the scientific paper/project [*PROJECTNAME*](PAPERUR
 [![PROJECTNAME](SPLASHIMAGE.JPG/PNG/GIF)](PROJECTURL)
 
 ## Installation
+To install and use the code, you need to have installed [JupyterLab](https://pypi.org/project/jupyterlab/).
+
 First clone the repository:
 
 ```
