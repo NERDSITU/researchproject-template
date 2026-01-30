@@ -23,13 +23,33 @@ First clone the repository:
 git clone https://github.com/USER/REPO.git
 ```
 
-Go to the cloned folder and create a new virtual environment. You can either create a new virtual environment then install the necessary dependencies with `pip` using the `requirements.txt` file:
+Go to the cloned folder and create a new virtual environment. 
+
+### Installation with pixi
+
+Installation with [`pixi`](https://pixi.prefix.dev/latest/) is fastest and most stable. Setup a new virtual environment using the `environment.yml` file:
+
+```
+pixi init --import environment.yml
+```
+
+Now build the environment and run it:
+
+```
+pixi run jupyter lab
+```
+
+An instance of Jupyter lab is automatically going to open in your browser after the environment is built.
+
+### Installation with pip/mamba/conda
+
+You can either create a new virtual environment then install the necessary dependencies with `pip` using the `requirements.txt` file:
 
 ```
 pip install -r requirements.txt
 ```
 
-Or create a new environment with the dependencies with `conda` or `mamba` using the `environment.yml` file:
+Or create a new environment with the dependencies with `conda` or [`mamba`](https://mamba.readthedocs.io/en/latest/index.html) using the `environment.yml` file:
 
 ```
 mamba env create -f environment.yml
