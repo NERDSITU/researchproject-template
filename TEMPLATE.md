@@ -61,7 +61,7 @@ See [here](https://pip.pypa.io/en/stable/reference/requirements-file-format/#req
 For conda/mamba:
 
 ```
-mamba env export > environment.yml
+mamba env export > environment.yml --no-builds
 ```
 
 See [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually) for more details.
